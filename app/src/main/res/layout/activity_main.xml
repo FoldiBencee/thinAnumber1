@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    //kep1
+    <ImageView
+        android:id="@+id/sziv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        />
+
+
+    //kep2
+    <ImageView
+        android:id="@+id/sziv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:text="talald ki a szamocskat"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/kozepenlatom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:text="0"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/plusz"
+        android:text="+"
+        android:textSize="20dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="240dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@android:color/holo_blue_bright"
+
+        />
+
+
+    <Button
+        android:id="@+id/minusz"
+        android:text="-"
+        android:textSize="20dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="320dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@android:color/holo_green_light"
+
+        />
+
+
+    //kuldeeeeeees
+    <Button
+        android:id="@+id/kuldes"
+        android:text="kuldes"
+        android:textSize="20dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@android:color/holo_red_dark"
+
+        />
+
+
+
+</RelativeLayout>
